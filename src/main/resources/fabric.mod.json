@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-custom-sky",
+  "version": "${version}",
+  "name": "Custom Sky",
+  "description": "OptiFine's Custom Sky feature",
+  "authors": [
+    "roro1506HD"
+  ],
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ovh.roro.customsky.CustomSkyMod"
+    ]
+  },
+  "mixins": [
+    "customsky.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}
